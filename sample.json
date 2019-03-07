@@ -1,0 +1,43 @@
+{
+    "attributes":{
+        "bearing":0.0,
+        "current_status":"IN_TRANSIT_TO",
+        "current_stop_sequence":13,
+        "direction_id":1,
+        "label":"1740",
+        "latitude":42.35896301269531,
+        "longitude":-71.09362030029297,
+        "speed":null,
+        "updated_at":"2019-03-06T18:48:45-05:00"
+    },
+    
+    "id":"y1740",
+    "links":{
+        "self":"/vehicles/y1740"
+        },
+        
+        "relationships":{
+            "route":{
+                "data":{
+                    "id":"1",
+                    "type":"route"
+                }
+            },
+                
+            "stop":{
+                "data":{
+                    "id":"75",
+                    "type":"stop"
+                }
+            },
+            
+            "trip":{
+                "data":{
+                    "id":"39366118",
+                    "type":"trip"
+                }
+            }
+        },
+        
+        "type":"vehicle"
+}
